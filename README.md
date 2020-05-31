@@ -94,19 +94,12 @@ Acceleration works on Sierra and High Sierra.
 Needs Nvidia Web driver, if you plan to use amd card remove "nvda_drv" from boot args.
 
 
-## Lan
-
-Works fine.
-
-## Sound card: Reltek ALC892
-
-Works fine with original AppleHDA, no voodoo kexts :P
 
 ## Supported Systems:
 
 - 10.11 El Capitan: Perfect
 
-- 10.12.6 macOS Sierra: Perfect.
+- 10.12 macOS Sierra: Perfect.
 
 - 10.13 macOS High Sierra: Good (Sleep not working on HS due to c600/x79 chipset).
 
