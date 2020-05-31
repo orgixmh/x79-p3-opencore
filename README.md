@@ -4,27 +4,41 @@
 OpenCore is FASTER and SAFER than Clover
 
 ## What is Working:
-  LAN   : Perfect
-  SOUND : Perfect
-  SLEEP : Works on El Capitan and Sierra 
-  NVME  : Perfect
-  USB2  : Perfect
-  USB3  : Perfect
+  - LAN
+  
+  - SOUND
+  
+  - SLEEP (Works on El Capitan and Sierra)
+  
+  - NVME
+  
+  - USB2
+  
+  - USB3
+  
  
 ## What is not working:
-  SLEEP     : High Sierra, Mojave, Catalina
-  Hiberate  : Can't resume.
+  - SLEEP      (High Sierra, Mojave, Catalina)
+  - Hiberate   (Can't resume)
   
 ## SSDT/DSDT Patches
- a) HPET
- b) IPIC
- c) Power Management
- d) USB port limit
- e) X79 USB2 Patch
- f) RTC
- g) EC
- h) TMR
- i) CPU package
+ - HPET
+ 
+ - IPIC
+ 
+ - Power Management
+ 
+ - USB port limit
+ 
+ - X79 USB2 Patch
+ 
+ - RTC
+ 
+ - EC
+ 
+ - TMR
+ 
+ - CPU package
  
  ## Extensions
   1) Lilu.kext (Pathcer)
@@ -39,10 +53,11 @@ OpenCore is FASTER and SAFER than Clover
         e) AppleALC.kext   (Sound)
         
   2) RealtekRTL8111.kext (Ethernet card)
+  
   3) VoodooTSCSync.kext (Sync cpu threads)
 
 ## Other Fixes
-  Ethernet as built-in (Facetime/iMessage)
+ - Ethernet as built-in (Facetime/iMessage)
 
 ## Change log:
 
@@ -69,6 +84,7 @@ Make sure to:
 Single CPU
 
 Configured for OC (4,2ghz)
+
 Power Management works (1,2ghz - 4,2ghz)
 
 ## Graphic: GTX 750TI
