@@ -29,10 +29,15 @@ OpenCore is FASTER and SAFER than Clover
  # Extensions
   1) Lilu.kext (Pathcer)
         a) VirtualSMC.kext (Emulates Mac SMC device)
+        
         b) SMCProccessor.kext (Plugin for virtualsmc)
+        
         c) SMCSuperIO.kext (Plugin for virtualsmc)
+        
         d) WhateverGreen.kext (GPU)
+        
         e) AppleALC.kext   (Sound)
+        
   2) RealtekRTL8111.kext (Ethernet card)
   3) VoodooTSCSync.kext (Sync cpu threads)
 
@@ -47,7 +52,7 @@ I'd recommend you read the change logs before updating.
 
 # Hardware Specifications:
 
-## Matherboard: Jingsha X79-P3
+## Motherboard: Jingsha X79-P3
 
 OpenCore Version 0.58
 
