@@ -1,9 +1,9 @@
-# Hackintosh OpenCore configuration for Chinese X79-P3 Motherboard
+## Hackintosh OpenCore configuration for Chinese X79-P3 Motherboard
 
-# Why OpenCore?
+## Why OpenCore?
 OpenCore is FASTER and SAFER than Clover
 
-# What is Working:
+## What is Working:
   LAN   : Perfect
   SOUND : Perfect
   SLEEP : Works on El Capitan and Sierra 
@@ -11,11 +11,11 @@ OpenCore is FASTER and SAFER than Clover
   USB2  : Perfect
   USB3  : Perfect
  
-# What is not working:
+## What is not working:
   SLEEP     : High Sierra, Mojave, Catalina
   Hiberate  : Can't resume.
   
-# SSDT/DSDT Patches
+## SSDT/DSDT Patches
  a) HPET
  b) IPIC
  c) Power Management
@@ -26,7 +26,7 @@ OpenCore is FASTER and SAFER than Clover
  h) TMR
  i) CPU package
  
- # Extensions
+ ## Extensions
   1) Lilu.kext (Pathcer)
         a) VirtualSMC.kext (Emulates Mac SMC device)
         
@@ -41,7 +41,7 @@ OpenCore is FASTER and SAFER than Clover
   2) RealtekRTL8111.kext (Ethernet card)
   3) VoodooTSCSync.kext (Sync cpu threads)
 
-# Other Fixes
+## Other Fixes
   Ethernet as built-in (Facetime/iMessage)
 
 ## Change log:
@@ -50,7 +50,7 @@ OpenCore is FASTER and SAFER than Clover
 
 I'd recommend you read the change logs before updating.
 
-# Hardware Specifications:
+## Hardware Specifications:
 
 ## Motherboard: Jingsha X79-P3
 
@@ -86,7 +86,7 @@ Works fine.
 
 Works fine with original AppleHDA, no voodoo kexts :P
 
-# Supported Systems:
+## Supported Systems:
 
 - 10.11 El Capitan: Perfect
 
