@@ -1,7 +1,7 @@
 # Hackintosh OpenCore configuration for Chinese X79-P3 Motherboard
 
 # Why OpenCore?
-OpenCore is FASTER, SAFER that Clover
+OpenCore is FASTER and SAFER than Clover
 
 # What is Working:
   LAN   : Perfect
