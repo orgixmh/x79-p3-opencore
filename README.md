@@ -3,7 +3,7 @@
 ## Why OpenCore?
 OpenCore is FASTER and SAFER than Clover
 
-## What is Working:
+## Working:
   - LAN
   
   - SOUND
@@ -17,7 +17,7 @@ OpenCore is FASTER and SAFER than Clover
   - USB3
   
  
-## What is not working:
+## Not working:
   - SLEEP      (High Sierra, Mojave, Catalina)
   - Hiberate   (Can't resume)
   
